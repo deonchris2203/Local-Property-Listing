@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local property listing</title>
+    <link rel="stylesheet" href="/HomePage/css/style.css">
+   </head>
+
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">Local Property listing</a>
+      </div>
+      <ul>
+        <li><a onclick="scrollToSection('home')" >Home</a></li>
+        <li><a onclick="scrollToSection('services')" >About</a></li>
+        <li><a onclick="scrollToSection('Contact')" >Contact</a></li>
+        <li><a href="/Login-Register/html/signup.html">Signup</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+<!-- Home Section  -->
+<section id="home">
+  <div class="img"></div>
+  <div class="center">
+    <div class="title">Buy and Sell</div>
+    <div class="sub_title"> Property</div>
+    
+    <div class="btns">
+      <li><a href="/Buy-View/html/fetch.html" class="buybtn">Buy</a></li>
+      <li><a href="/Sell-Upload/html/new.html" class="selbtn">Sell</a></li>
+    </div>
+    
+  </div>
+</section>
+
+
+<!-- Services Section Starts-->
+
+<section class="services" id="services">
+  <h1 class="h1head">About</h1>
+
+  <div class="box-container">
+      <div class="box">
+          <h3>Buy Property</h3>
+          <p>We have a great options for you here.<br>
+            You can buy Flat,Office,Land and many <br>
+            other property listed here on the website<br>
+            To Browse through properties....
+          </p>
+          <button id="scrlbtn" onclick="scrollToSection('home')">Browse through Properties</button>
+      </div>
+
+      <div class="box">
+          <h3>Sell Property</h3>
+          <p>You can also sell your property here.<br>
+             You can post photos and add your contact<br>
+             Direct customer to seller contact is made<br>
+             click the link below to learn more...
+
+          </p>
+          <button id="scrlbtn" onclick="scrollToSection('home')">Sell/Rent your Properties</button>
+      </div>
+
+
+  </div>
+</section>
+
+
+<!-- Services section Ends -->
+
+
+
+
+
+
+
+  
+  <!-- Contact Section Starts -->
+<section class="Contact" id="Contact">
+  <h1 style="color:whitesmoke;"class="heading"><span>Contact</span>Us</h1>
+  
+  <div class="icons-container">
+      <div class="icons">
+          <img src="" alt="">
+          <h3>Co-Founders</h3>
+          <p>Hrushikesh Shinde</p>
+          <p>Deon Chris Fernandes</p>
+          <p>Romit Shirke</p>
+
+      </div>
+
+      <div class="icons">
+          <img src="" alt="">
+          <h3>Contact us</h3>
+          <p>dyppropertylisting@gmail.com</p>
+
+      </div>
+
+
+  </div>
+</section>
+
+
+
+<!-- Contact Section Ends -->
+
+
+
+<!-- Javascript part starts -->
+<script src="/HomePage/js/query.js"></script>
+<!-- JS part end -->
+ 
+
+
+</body>
+
+</html>
